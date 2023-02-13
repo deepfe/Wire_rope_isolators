@@ -17,18 +17,19 @@ with p.open('r') as f:
 
 #plot force/displacement graph
 plt.figure(1)
-plt.plot(displ[1:1000],force[1:1000])   #change the parameters to obtain more cycles on the hysteresis loop
+plt.plot(displ[1:100000],force[1:100000])   #change the parameters to obtain more cycles on the hysteresis loop
 plt.xlabel('Displacement (mm)')
 plt.ylabel('Force (N)')
 
 
 #frequency analysis
 
-sr=2000 #sampling rate
-T=150 #total time
-ts=100/sr
+sr=10240 #sampling rate
 N=len(displ)
-t=np.linspace(0,100,N)
+T=N/sr #total time
+print(T)
+ts=T/sr
+t=np.linspace(0,T,N)
 #plt.plot(time,displ)
 #plt.show()
 
