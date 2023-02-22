@@ -6,7 +6,7 @@ from scipy.fftpack import fft
 
 #define counters for the hysteresis cycles
 i=0
-j=i+225000
+j=i+125000
 
 # import data
 force = []
