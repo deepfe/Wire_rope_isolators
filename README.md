@@ -6,3 +6,7 @@
 Testing rig for the characterisation of the wire rope isolator
 
 ![alt text](https://github.com/deepfe/Wire_rope_isolators/blob/main/Pictures/IMG_5999.jpeg?raw=true)
+
+Test of the system on the shaker
+
+![alt text](https://github.com/deepfe/Wire_rope_isolators/blob/main/Pictures/IMG_5982.jpeg?raw=true)
